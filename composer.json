@@ -1,0 +1,16 @@
+{
+  "name": "rfpmart/uswds-admin-1",
+  "description": "Open-source USWDS Admin template by Ashish Arvindbhai Adeshara & RFPMart LLC",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Ashish Arvindbhai Adeshara",
+      "organization": "RFPMart LLC"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  }
+}
