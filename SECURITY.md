@@ -27,4 +27,4 @@ Only the latest stable release is actively supported with security updates.
 Instead, please report security issues **privately**.
 
 ### 📧 Contact
-Send an email to:
+Send an email to: info@uswebdesignsystem.com
