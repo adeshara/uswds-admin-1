@@ -92,7 +92,7 @@
 <header class="usa-header usa-header--extended">
     <div class="usa-navbar margin-0">
         <div class="usa-logo">
-            <em class="usa-logo__text"><a href="index.html" title="<Project title>">Admin Portal</a></em>
+            <em class="usa-logo__text"><a href="./" title="Admin Portal">Admin Portal</a></em>
         </div>
         <button type="button" class="usa-menu-btn z-top">Menu</button>
 
@@ -106,7 +106,7 @@
             </button>
 
             <ul class="usa-nav__primary usa-accordion">
-			
+
                 <li class="usa-nav__primary-item">
                     <a href="https://www.rfpmart.com" class="usa-nav-link">RFPMart.com</a>
                 </li>
@@ -114,13 +114,13 @@
                 <li class="usa-nav__primary-item">
                     <a href="https://www.rfpmartllc.com" class="usa-nav-link">RFPMart LLC</a>
                 </li>
-			
+
                 <li class="usa-nav__primary-item">
                     <a href="https://www.uswebdesignsystem.org/" class="usa-nav-link">USWDS</a>
                 </li>
-				
+
                 <li class="usa-nav__primary-item">
-                    <a href="/uswds-admin-1/" class="usa-nav-link">Dashboard</a>
+                    <a href="./" class="usa-nav-link">Dashboard</a>
                 </li>
 
                 <li class="usa-nav__primary-item">
@@ -133,7 +133,10 @@
                     </button>
                     <ul id="basic-nav-section-one" class="usa-nav__submenu">
                         <li class="usa-nav__submenu-item">
-                            <a href="procurement-view-bids-rfps.html">All Bids</a>
+                            <a href="procurement-overview.html">Overview</a>
+                        </li>
+                        <li class="usa-nav__submenu-item">
+                            <a href="#">All Bids</a>
                         </li>
                         <li class="usa-nav__submenu-item">
                             <a href="procurement-add-new-rfps-bid.html">Post a Bid</a>
@@ -169,7 +172,10 @@
                     </button>
                     <ul id="basic-nav-section-two" class="usa-nav__submenu">
                         <li class="usa-nav__submenu-item">
-                            <a href="events-view-list.html">All Events</a>
+                            <a href="events-overview.html">Overview</a>
+                        </li>
+                        <li class="usa-nav__submenu-item">
+                            <a href="#">All Events</a>
                         </li>
                         <li class="usa-nav__submenu-item">
                             <a href="events-add-new-event.html">Post an Event</a>
@@ -193,7 +199,10 @@
                     </button>
                     <ul id="basic-nav-section-three" class="usa-nav__submenu">
                         <li class="usa-nav__submenu-item">
-                            <a href="news-view-list.html">All Articles</a>
+                            <a href="news-overview.html">Overview</a>
+                        </li>
+                        <li class="usa-nav__submenu-item">
+                            <a href="#">All Articles</a>
                         </li>
                         <li class="usa-nav__submenu-item">
                             <a href="news-add-new-news.html">Post an Article</a>
@@ -228,7 +237,7 @@
                 </li>
 
                 <li class="usa-nav__primary-item">
-                    <a href="admin-login.html" class="usa-nav-link">Login</a>
+                    <a href="login.html" class="usa-nav-link">Login</a>
                 </li>
             </ul>
 

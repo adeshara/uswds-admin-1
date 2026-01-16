@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="View up-to-date data on population, economy, demographics, and other key city metrics." />
+    <title>Add a New Article - RFPMart + USWDS</title>
+    <meta name="description" content="Admin content creation page for writing, editing, and publishing news articles and announcements." />
 
     <?php require_once '1_head.php'; ?>
 </head>
 
 <body>
-    <?php require_once '2_admin_nav.php'; ?>
+    <?php require_once '2_nav.php'; ?>
     <main>
 
         <section class="usa-section grid-container">
@@ -19,16 +20,16 @@
                     <nav aria-label="Side navigation" class="padding-top-4 position-sticky top-0">
                         <ul class="usa-sidenav">
                             <li class="usa-sidenav__item">
-                                <a href="index.html">Dashboard</a>
+                                <a href="./">Dashboard</a>
                             </li>
                             <li class="usa-sidenav__item">
-                                <a href="procurement-view-bids-rfps.html">Bids</a>
+                                <a href="procurement-overview.html">Bids</a>
                             </li>
                             <li class="usa-sidenav__item">
-                                <a href="events-view-list.html">Events</a>
+                                <a href="events-overview.html">Events</a>
                             </li>
                             <li class="usa-sidenav__item">
-                                <a href="news-view-list.html" class="usa-current">News</a>
+                                <a href="news-overview.html" class="usa-current">News</a>
                                 <ul class="usa-sidenav__sublist">
                                     <li class="usa-sidenav__item">
                                         <a href="#">All Articles</a>
@@ -57,12 +58,12 @@
                         <nav class="usa-breadcrumb bg-transparent" aria-label="Breadcrumbs">
                             <ul class="usa-breadcrumb__list">
                                 <li class="usa-breadcrumb__list-item">
-                                    <a href="index.html" class="usa-breadcrumb__link">
+                                    <a href="./" class="usa-breadcrumb__link">
                                         <span class="">Home</span>
                                     </a>
                                 </li>
                                 <li class="usa-breadcrumb__list-item">
-                                    <a href="news-view-list.html" class="usa-breadcrumb__link">
+                                    <a href="news-overview.html" class="usa-breadcrumb__link">
                                         <span class="">News</span>
                                     </a>
                                 </li>

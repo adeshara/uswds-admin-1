@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="View up-to-date data on population, economy, demographics, and other key city metrics." />
+    <title>Dashboard - RFPMart + USWDS</title>
+    <meta name="description" content="Administrator dashboard providing quick access to site management tools, content workflows, and system functions." />
 
     <?php require_once '1_head.php'; ?>
 </head>
 
 <body>
-    <?php require_once '2_admin_nav.php'; ?>
+    <?php require_once '2_nav.php'; ?>
     <main>
 
         <section class="usa-section grid-container">
@@ -19,16 +20,16 @@
                     <nav aria-label="Side navigation" class="padding-top-4 position-sticky top-0">
                         <ul class="usa-sidenav">
                             <li class="usa-sidenav__item">
-                                <a href="index.html" class="usa-current">Dashboard</a>
+                                <a href="./" class="usa-current">Dashboard</a>
                             </li>
                             <li class="usa-sidenav__item">
-                                <a href="procurement-view-bids-rfps.html">Bids</a>
+                                <a href="procurement-overview.html">Bids</a>
                             </li>
                             <li class="usa-sidenav__item">
-                                <a href="events-view-list.html">Events</a>
+                                <a href="events-overview.html">Events</a>
                             </li>
                             <li class="usa-sidenav__item">
-                                <a href="news-view-list.html">News</a>
+                                <a href="news-overview.html">News</a>
                             </li>
                             <li class="usa-sidenav__item">
                                 <a href="#">Manage Users</a>

@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Admin Portal - RFPMart + USWDS</title>
+    <meta name="description" content="Secure administrator login page providing backend access for managing city website content and services." />
 
     <?php require_once '1_head.php'; ?>
 </head>
 
 <body>
-    <?php require_once '2_admin_nav.php'; ?>
+    <?php require_once '2_nav.php'; ?>
 
     <main id="main-content">
         <div class="bg-base-lightest">

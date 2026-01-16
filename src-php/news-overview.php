@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="View up-to-date data on population, economy, demographics, and other key city metrics." />
+    <title>News Overview - RFPMart + USWDS</title>
+    <meta name="description" content="Administrative overview of news content with summary statistics and options to manage, edit, and organize articles." />
 
     <?php require_once '1_head.php'; ?>
 </head>
 
 <body>
-    <?php require_once '2_admin_nav.php'; ?>
+    <?php require_once '2_nav.php'; ?>
     <main>
 
         <section class="usa-section grid-container">
@@ -19,42 +20,30 @@
                     <nav aria-label="Side navigation" class="padding-top-4 position-sticky top-0">
                         <ul class="usa-sidenav">
                             <li class="usa-sidenav__item">
-                                <a href="index.html">Dashboard</a>
+                                <a href="./">Dashboard</a>
                             </li>
                             <li class="usa-sidenav__item">
-                                <a href="procurement-view-bids-rfps.html" class="usa-current">Bids</a>
+                                <a href="procurement-overview.html">Bids</a>
+                            </li>
+                            <li class="usa-sidenav__item">
+                                <a href="events-overview.html">Events</a>
+                            </li>
+                            <li class="usa-sidenav__item">
+                                <a href="news-overview.html" class="usa-current">News</a>
                                 <ul class="usa-sidenav__sublist">
                                     <li class="usa-sidenav__item">
-                                        <a href="#">All Bids</a>
+                                        <a href="#">All Articles</a>
                                     </li>
                                     <li class="usa-sidenav__item">
-                                        <a href="procurement-add-new-rfps-bid.html">Post a Bid</a>
+                                        <a href="news-add-new-news.html">Post an Article</a>
                                     </li>
                                     <li class="usa-sidenav__item">
-                                        <a href="#">Update a Bid</a>
-                                    </li>
-                                    <li class="usa-sidenav__item">
-                                        <a href="#">All Contracts</a>
-                                    </li>
-                                    <li class="usa-sidenav__item">
-                                        <a href="#">Post a Contract</a>
-                                    </li>
-                                    <li class="usa-sidenav__item">
-                                        <a href="#">Update Contract</a>
+                                        <a href="#">Update an Article</a>
                                     </li>
                                     <li class="usa-sidenav__item">
                                         <a href="#">Manage Categories</a>
                                     </li>
-                                    <li class="usa-sidenav__item">
-                                        <a href="#">Registered Vendors</a>
-                                    </li>
                                 </ul>
-                            </li>
-                            <li class="usa-sidenav__item">
-                                <a href="events-view-list.html">Events</a>
-                            </li>
-                            <li class="usa-sidenav__item">
-                                <a href="news-view-list.html">News</a>
                             </li>
                             <li class="usa-sidenav__item">
                                 <a href="#">Manage Users</a>
@@ -66,10 +55,43 @@
                 <div class="tablet:grid-col-9">
                     <div class="margin-bottom-6">
                         <h2 class="font-heading-xl">
-                            Events - A quick overview
+                            News - A quick overview
                         </h2>
                     </div>
                     <ul class="usa-card-group grid-row grid-gap-1">
+                        <li class="usa-card margin-bottom-0 tablet:grid-col text-center">
+                            <div class="usa-card__container border-0">
+                                <div class="usa-card__header padding-0">
+                                    <h4 class="font-heading-lg">
+                                        Total
+                                    </h4>
+                                </div>
+
+                                <div class="usa-card__body">
+                                    <img
+                                        class="maxh-card margin-top-2"
+                                        src="images/graphs/admin-news-total.svg"
+                                        alt="Population trend for last 15 years" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="usa-card margin-bottom-0 tablet:grid-col text-center">
+                            <div class="usa-card__container border-0">
+                                <div class="usa-card__header padding-0">
+                                    <h4 class="font-heading-lg">
+                                        Published
+                                    </h4>
+                                </div>
+
+                                <div class="usa-card__body">
+                                    <img
+                                        class="maxh-card margin-top-2"
+                                        src="images/graphs/admin-news-published.svg"
+                                        alt="Population trend for last 15 years" />
+                                </div>
+                            </div>
+                        </li>
+
                         <li class="usa-card margin-bottom-0 tablet:grid-col text-center">
                             <div class="usa-card__container border-0">
                                 <div class="usa-card__header padding-0">
@@ -81,23 +103,7 @@
                                 <div class="usa-card__body">
                                     <img
                                         class="maxh-card margin-top-2"
-                                        src="images/graphs/admin-bids-drafts.svg"
-                                        alt="Population trend for last 15 years" />
-                                </div>
-                            </div>
-                        </li>
-                        <li class="usa-card margin-bottom-0 tablet:grid-col text-center">
-                            <div class="usa-card__container border-0">
-                                <div class="usa-card__header padding-0">
-                                    <h4 class="font-heading-lg">
-                                        Active
-                                    </h4>
-                                </div>
-
-                                <div class="usa-card__body">
-                                    <img
-                                        class="maxh-card margin-top-2"
-                                        src="images/graphs/admin-bids-active.svg"
+                                        src="images/graphs/admin-news-draft.svg"
                                         alt="Population trend for last 15 years" />
                                 </div>
                             </div>
@@ -107,31 +113,14 @@
                             <div class="usa-card__container border-0">
                                 <div class="usa-card__header padding-0">
                                     <h4 class="font-heading-lg">
-                                        Closing Soon
+                                        Departments
                                     </h4>
                                 </div>
 
                                 <div class="usa-card__body">
                                     <img
                                         class="maxh-card margin-top-2"
-                                        src="images/graphs/admin-bids-closing-soon.svg"
-                                        alt="Population trend for last 15 years" />
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="usa-card margin-bottom-0 tablet:grid-col text-center">
-                            <div class="usa-card__container border-0">
-                                <div class="usa-card__header padding-0">
-                                    <h4 class="font-heading-lg">
-                                        Closed
-                                    </h4>
-                                </div>
-
-                                <div class="usa-card__body">
-                                    <img
-                                        class="maxh-card margin-top-2"
-                                        src="images/graphs/admin-bids-closed.svg"
+                                        src="images/graphs/admin-news-departments.svg"
                                         alt="Population trend for last 15 years" />
                                 </div>
                             </div>
@@ -143,14 +132,14 @@
                             <div class="usa-card__container border-0 text-center">
                                 <div class="usa-card__header padding-0">
                                     <h4 class="font-heading-lg">
-                                        Bid Count Distribution by Status
+                                        Articles published per month (last 6 months)
                                     </h4>
                                 </div>
 
                                 <div class="usa-card__body">
                                     <img
                                         class="margin-top-2"
-                                        src="images/graphs/admin-bids-status-dist.svg"
+                                        src="images/graphs/admin-news-published-6m-trend.svg"
                                         alt="Population trend for last 15 years" />
                                 </div>
                             </div>
@@ -159,14 +148,14 @@
                             <div class="usa-card__container border-0 text-center">
                                 <div class="usa-card__header padding-0">
                                     <h4 class="font-heading-lg">
-                                        Bid Status Distribution by Department
+                                        Published Articles by Department
                                     </h4>
                                 </div>
 
                                 <div class="usa-card__body">
                                     <img
                                         class="margin-top-2"
-                                        src="images/graphs/admin-bids-status-dist-departments.svg"
+                                        src="images/graphs/admin-news-published-department.svg"
                                         alt="Population trend for last 15 years" />
                                 </div>
                             </div>
@@ -177,7 +166,6 @@
         </section>
 
     </main>
-
     <script src="uswds/dist/js/uswds.min.js"></script>
 </body>
 

@@ -13,4 +13,4 @@ See the `LICENSE` file for full license text.
 
 ## Version
 
-Current stable release: **v1.0.0**
+Current stable release: **v1.0.1**
