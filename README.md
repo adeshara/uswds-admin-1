@@ -3,8 +3,10 @@
 This project is licensed under the **MIT License**.
 
 Copyright © 2026  
-**Ashish Arvindbhai Adeshara**  
-**RFPMart LLC**
+
+**Ashish Arvindbhai Adeshara**  ( https://www.ashish.im/ )
+
+**RFPMart LLC** ( https://www.rfpmart.com/ & https://www.rfpmartllc.com/ )
 
 You are free to use, modify, distribute, and use this software commercially,
 provided that the original copyright and license notice are included.
