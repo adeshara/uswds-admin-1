@@ -11,6 +11,10 @@ provided that the original copyright and license notice are included.
 
 See the `LICENSE` file for full license text.
 
+## Live Demo
+
+Please open this link to view live demo: https://www.uswebdesignsystem.org/uswds-admin-1/
+
 ## Version
 
 Current stable release: **v1.0.1**
